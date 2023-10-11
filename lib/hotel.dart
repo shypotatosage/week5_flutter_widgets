@@ -16,7 +16,10 @@ class _HotelPageState extends State<HotelPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Mission 1"),
+        title: const Text(
+          "Mission 1",
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
       body: Stack(
         children: [
